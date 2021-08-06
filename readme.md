@@ -1,5 +1,7 @@
 # Pricing Service
 
+Forked version by Keisei
+
 This is an application built to allow the periodic scanning of online webstores, to notify users of changes in prices of items they select.
 
 This application is part of the course "The Complete Python Web Developer", a course aimed at beginners, to teach the creation of web applications using Python. If that sounds interesting, check it out: https://www.udemy.com/the-complete-python-web-course-learn-by-building-8-apps/
@@ -19,6 +21,7 @@ Technology stack: MongoDB, Python (Flask & Jinja2), HTML/CSS/Bootstrap, Mailgun.
 
 ## Installation
 
+
 1. Clone the repository (going to a terminal and run `git clone git@github.com:schoolofcode-me/price-of-chair.git`.
 2. Define your administrator e-mail in `src/config.py`.
 3. Define your Mailgun API details on `src/models/alerts/constants.py`.
@@ -37,3 +40,4 @@ Technology stack: MongoDB, Python (Flask & Jinja2), HTML/CSS/Bootstrap, Mailgun.
 ![Stores Screen](readme-files/stores.png)
 
 ![Edit Store Screen](readme-files/edit_store.png)
+
